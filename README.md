@@ -22,7 +22,3 @@ Serve this folder with any static HTTP server, for example `python3 -m http.serv
 ## Data and scope
 
 All data is stored in `localStorage` for this browser and device. Clearing site data removes it. This version does not include accounts, cross-device sync, or a trained machine learning component. Sample decks are included to make the first session immediately usable.
-
-## Publish with GitHub Pages
-
-Upload these extracted files to the root of a GitHub repository. In Settings → Pages, select Deploy from a branch, choose `main` and `/ (root)`, then Save.
