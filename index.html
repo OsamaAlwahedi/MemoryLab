@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#121c31"><meta name="description" content="MemoryLab helps you remember more with adaptive flashcard reviews."><title>MemoryLab — Study with intention</title><link rel="stylesheet" href="styles.css"></head><body>
+<div class="app-shell">
+  <aside class="sidebar" aria-label="Main navigation">
+    <div class="brand"><span class="brand-mark">✦</span><span>memory<span class="brand-light">lab</span><small>LEARNING STUDIO</small></span></div>
+    <nav class="nav"><button class="nav-item active" data-view="overview"><span class="nav-icon">◫</span>Overview</button><button class="nav-item" data-view="library"><span class="nav-icon">▦</span>My library</button><button class="nav-item" data-view="insights"><span class="nav-icon">◷</span>Insights</button></nav>
+    <div class="sidebar-bottom"><div class="small-orbit">✳</div><strong>Little by little, it sticks.</strong><p>Short reviews make long-term recall easier.</p><button id="aboutBtn" class="text-link">How scheduling works <span>↗</span></button></div>
+  </aside>
+  <div class="main-wrap"><header class="topbar"><button id="mobileMenu" class="mobile-menu" aria-label="Open navigation">☰</button><div class="breadcrumbs">Workspace <span>/</span> <b id="breadcrumb">Overview</b></div><div class="top-right"><span id="todayLabel"></span><span class="avatar" aria-label="Personal workspace">M</span></div></header>
+    <main id="main" tabindex="-1"></main>
+  </div>
+</div>
+<div id="modalRoot"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script></body></html>
